@@ -12,7 +12,7 @@ const Home = () => {
         {selectedOption === "Home" ? (
           <>
             <TopCard />
-            <div className="pt-10 pb-40 flex flex-col items-center">
+            <div className="pt-10 pb-0 lg:pb-30 flex flex-col items-center">
               <BottomCard />
             </div>
           </>
